@@ -3,12 +3,11 @@
 ## Details
 
 ### Elder Scrolls V: Skyrim
+Elder Scrolls V: Skyrim PC
 The name of the game, subtitle, and the url or information on how to find the game.
 
 ### Rating 
 8/10
-
-Insert your rating system.
 
 ## Summary
 Skyrim is a Game that has dragons returning to the world of Tamriel, as a civil war rages on Skyrim between the Stormcloaks and the Empire. The Stormcloaks are a faction led by the usurper Ulfric Stormcloak now ruling Skyrim because he killed the previous king. The Empire is led by the Emperor commanding the Imperials. You play as the Dragonborn, someone who is born with the blood and soul of a dragon. You must discover why the dragons are returning to Tamriel along with choosing a faction and ending the civil war.  
