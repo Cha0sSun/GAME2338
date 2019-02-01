@@ -4,7 +4,6 @@
 
 ### Elder Scrolls V: Skyrim
 Elder Scrolls V: Skyrim PC
-The name of the game, subtitle, and the url or information on how to find the game.
 
 ### Rating 
 8/10
