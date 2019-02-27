@@ -8,7 +8,7 @@ Game Title
 
 Rating
 
-I rate 6 out 10
+I rate 7 out 10
 
 Summary
  
