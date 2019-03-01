@@ -12,6 +12,7 @@
 
 **Question:** Is this game balanced? If not, what is the target audience for this game based on that imbalance?
 > _Answer:_ Yes, however you must use ability and units at your disposal to survive the waves. However, the balanced change depending on units and timing.
+
 **Question:** Does the timing of this game appear to be about right for this type of game?
 > _Answer:_ Yes, as this game can be considered part of a trilogy of games.
 
