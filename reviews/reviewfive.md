@@ -1,9 +1,9 @@
 # Game Review for (Arcane Depths)
 
 ## Details
-(Arcane Depths)OC Armor Games
+
 ### Game Title
-The name of the game, subtitle, and the url or information on how to find the game.
+(Arcane Depths)OC Armor Games
 
 ### Rating
 I am rating games from 6 to 10 stars 
