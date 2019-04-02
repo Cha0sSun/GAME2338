@@ -6,7 +6,7 @@
 BattleBlock Theater (Xbox 360, Microsoft Windows, macOS, Linux, Macintosh, Steam)
 
 ### Rating
-Insert your rating system. Example: I rate games from 1 to 5 stars and I give this game a 3 star rating.
+I rate this 8/10.
 
 ## Summary
 BattleBlock Theater is a Comedy multiplayer platform game created by Dan Paladin and Tom Fulp. The Developers of BattleBlock Theater are The Behemoth and Big Timber Studio. That has come out on multiple gaming systems, but it started on Xbox live arcade and was released April 3, 2013.
@@ -19,6 +19,8 @@ I like this about the game but didn't like this particular feature. This should 
 
 ## Additional Information
 https://en.wikipedia.org/wiki/BattleBlock_Theater
+
 https://www.youtube.com/watch?v=tT0cKdWlngU
+
 https://steamcommunity.com/sharedfiles/filedetails/?id=481662370
 
