@@ -17,7 +17,7 @@ The Controls to BattleBlock Theater are Left stick for movement, right stick is 
 
 
 ## Final Thoughts
-BattleBlock Theater is a game that has a mix of comedic story telling and multiplayer platforming. The story is enjoy that never miss a bet on joke and the use of those joke to increse that story experince over all. The controls are useable buy the pc controls may need adjusting before uses.
+BattleBlock Theater is a game that has a mix of comedic storytelling and multiplayer platforming. The story is enjoying that never miss a bet on joke and the use of those joke to increase that story experience over all. The controls are useable buy the pc controls may need adjusting before uses.
 
 ## Additional Information
 https://en.wikipedia.org/wiki/BattleBlock_Theater
