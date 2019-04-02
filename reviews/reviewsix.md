@@ -1,18 +1,24 @@
-# Game Review for (GAME TITLE)
+# Game Review for (BattleBlock Theater)
 
 ## Details
 
 ### Game Title
-The name of the game, subtitle, and the url or information on how to find the game.
+BattleBlock Theater (Xbox 360, Microsoft Windows, macOS, Linux, Macintosh, Steam)
 
 ### Rating
 Insert your rating system. Example: I rate games from 1 to 5 stars and I give this game a 3 star rating.
 
 ## Summary
-This game is about... this should be at least 3-4 paragraphs summarising the gameplay mechanics of the game. You should be answering the who, what, when, where, why, and how of the game itself.
+BattleBlock Theater is a Comedy multiplayer platform game created by Dan Paladin and Tom Fulp. The Developers of BattleBlock Theater are The Behemoth and Big Timber Studio. That has come out on multiple gaming systems, but it started on Xbox live arcade and was released April 3, 2013.
+BattleBlock Theater Story is that Hattie, you and all your friends when sailing on a ship. Then out of nowhere a giant storm hit the ship cause you to crash on an unknown island. This island is ruled over by intelligence evolved cat that now run this island with a theater. Who capture you and all your friends as well they also place Hattie as their leader? But now you and your must fight and survival the theater deadly gladiator combat shows in order to save your self along with your friends and to find out why Hattie as betrayed to the cats an to escape the island.
+The Controls to BattleBlock Theater are Left stick for movement, right stick is camera pan, X is shove, A is Jump, B is attack, Y is to Relief, Left bumper is check gems, Left trigger is call for help, Right bumper/ trigger is grab/throw. These controls are for Xbox controls the controls for keyboard are A is left, D is right, W is up, S is down, light attack is left arrow, heavy attack is right arrow, E is use item, Jump is up arrow, X is magic, Item select is tab/shift, pause is esc, block is G, eat is X/S, ring bell is X, stats is tab, return home is H. The controls can be change on the pc edition on the Xbox version those.
+
 
 ## Final Thoughts
 I like this about the game but didn't like this particular feature. This should be at a minimum of one paragraph.
 
 ## Additional Information
-Links to other reviews or other information you used in this review.
+https://en.wikipedia.org/wiki/BattleBlock_Theater
+https://www.youtube.com/watch?v=tT0cKdWlngU
+https://steamcommunity.com/sharedfiles/filedetails/?id=481662370
+
