@@ -15,9 +15,10 @@ BattleBlock Theater Story is that Hattie, you and all your friends when sailing 
 
 The Controls to BattleBlock Theater are Left stick for movement, right stick is camera pan, X is shove, A is Jump, B is attack, Y is to Relief, Left bumper is check gems, Left trigger is call for help, Right bumper/ trigger is grab/throw. These controls are for Xbox controls the controls for keyboard are A is left, D is right, W is up, S is down, light attack is left arrow, heavy attack is right arrow, E is use item, Jump is up arrow, X is magic, Item select is tab/shift, pause is esc, block is G, eat is X/S, ring bell is X, stats is tab, return home is H. The controls can be change on the pc edition on the Xbox version those.
 
+The comedy of BattleBlock Theater can be a hit or miss sometimes. How ever to said that is complete enjoyable or unenjoyable is different because this games humor mixes well with the story as it never takes it self to serious and holds a Constance tone through the game. It evens adds music to some of the scene or jokes through the game that to help with games tone and humor.
 
 ## Final Thoughts
-BattleBlock Theater is a game that has a mix of comedic storytelling and multiplayer platforming. The story is enjoying that never miss a bet on joke and the use of those joke to increase that story experience over all. The controls are useable buy the pc controls may need adjusting before uses.
+BattleBlock Theater is a game that has a mix of comedic storytelling and multiplayer platforming. The story is enjoying that never miss a bet on joke and the use of those joke to increase that story experience over all. The controls are useable buy the pc controls may need adjusting before uses. The tone and humor of the game continue through the whole game it even adds muisc to the scene that helps.
 
 ## Additional Information
 https://en.wikipedia.org/wiki/BattleBlock_Theater
