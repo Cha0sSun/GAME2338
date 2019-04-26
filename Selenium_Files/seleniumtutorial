@@ -1,0 +1,87 @@
+*Using either the Selenium IDE (https://www.seleniumhq.org/selenium-ide/)
+(Links to an external site.)Links to an external site. 
+the manual tutorial 
+(https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Your_own_automation_environment)
+(Links to an external site.)Links to an external site. 
+
+write a test that go and visits your favorite site, types in a search term, and clicks on the search term results. 
+Save the file from the IDE or from the manual tutorial and upload it to your github account.
+
+
+{
+  "id": "4b03bec0-4560-4b87-9062-b6cea6005a01",
+  "version": "2.0",
+  "name": "Selenium Tutorial",
+  "url": "https://totalwarwarhammer.gamepedia.com",
+  "tests": [{
+    "id": "feecea59-3f68-4fce-a0cb-7c57b3251290",
+    "name": "Dragon",
+    "commands": [{
+      "id": "8b7236b3-6a50-4525-b6d8-ddb154d3e6d8",
+      "comment": "",
+      "command": "open",
+      "target": "/Total_War:_Warhammer_Wiki",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d59ddb7-e634-45ae-86cd-e0f62e5ad329",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a28d0f21-58e3-4a17-a6aa-d56512b46b77",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6ec1afd-bd2e-4719-b088-510e0cbb1307",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "dragon"
+    }, {
+      "id": "7e83ca54-0a6d-4ae9-a9b9-14d1947e070b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "dbcf6f64-8588-4260-af51-3b87a4fc5ede",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["feecea59-3f68-4fce-a0cb-7c57b3251290"]
+  }],
+  "urls": ["https://totalwarwarhammer.gamepedia.com/"],
+  "plugins": []
+}
