@@ -79,3 +79,19 @@ TaskExecutor'
 2019-05-01T03:28:52.543245+00:00 app[web.1]: 2019-05-01 03:28:52.542  INFO 4 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2019-05-01T03:28:52.607932+00:00 app[web.1]: 2019-05-01 03:28:52.607  INFO 4 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
 2019-05-01T03:28:52.915250+00:00 heroku[web.1]:
+
+thoma@DESKTOP-76N63F4 MINGW64 ~/java-getting-started (master)
+$ git commit -m "Procfile"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'thoma@DESKTOP-76N63F4.(none)')
+
