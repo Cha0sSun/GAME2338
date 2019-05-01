@@ -68,5 +68,14 @@ $ heroku open
 
 thoma@DESKTOP-76N63F4 MINGW64 ~/java-getting-started (master)
 $ heroku logs --tail
+2019-05-01T02:39:51.313672+00:00 app[api]: Initial release by user tflowers14@student.alamo.edu
+2019-05-01T02:39:51.313672+00:00 app[api]: Release v1 created by user tflowers14@student.alamo.edu
+2019-05-01T02:39:51.484164+00:00 app[api]: Enable Logplex by user tflowers14@student.alamo.edu
+2019-05-01T02:39:51.484164+00:00 app[api]: Release v2 created by user tflowers14@student.alamo.edu
+2019-05-01T02:40:05.000000+00:00 app[api]: Build started by user tflowers14@student.alamo.edu
 
 
+TaskExecutor'
+2019-05-01T03:28:52.543245+00:00 app[web.1]: 2019-05-01 03:28:52.542  INFO 4 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-01T03:28:52.607932+00:00 app[web.1]: 2019-05-01 03:28:52.607  INFO 4 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-05-01T03:28:52.915250+00:00 heroku[web.1]:
