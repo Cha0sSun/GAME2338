@@ -2,21 +2,50 @@
 git clone https://github.com/heroku/java-getting-started
 cd java-getting-started
 
-https://hidden-thicket-77425.herokuapp.com/ | https://git.heroku.com/hidden-thicket-77425.git
+thoma@DESKTOP-76N63F4 MINGW64 ~
+$ heroku create
+Creating app... done, murmuring-harbor-34294
+https://murmuring-harbor-34294.herokuapp.com/ | https://git.heroku.com/murmuring-harbor-34294.git
 
-git push heroku master
+thoma@DESKTOP-76N63F4 MINGW64 ~
+$ cd java-getting-started
+
+thoma@DESKTOP-76N63F4 MINGW64 ~/java-getting-started (master)
+$ heroku create
+Creating app... done, infinite-wildwood-19634
+https://infinite-wildwood-19634.herokuapp.com/ | https://git.heroku.com/infinite-wildwood-19634.git
+
+thoma@DESKTOP-76N63F4 MINGW64 ~/java-getting-started (master)
+$ git push heroku master
+Enumerating objects: 350, done.
+Counting objects: 100% (350/350), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (168/168), done.
+Writing objects: 100% (350/350), 161.52 KiB | 16.15 MiB/s, done.
+Total 350 (delta 125), reused 350 (delta 125)
 remote: Compressing source files... done.
 remote: Building source:
 remote:
 remote: -----> Java app detected
 remote: -----> Installing JDK 1.8... done
 remote: -----> Executing: ./mvnw -DskipTests clean dependency:list install
-...
+remote:        [INFO] Scanning for projects...
+remote:        [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/2.1.3.RELEASE/spring-boot-starter-parent-2.1.3.RELEASE.pom
+remote:        [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/2.1.3.RELEASE/spring-boot-starter-parent-2.1.3.RELEASE.pom (12 kB at 61 kB/s)
+remote:        [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.1.3.RELEASE/spring-boot-dependencies-2.1.3.RELEASE.pom
+remote:        [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.1.3.RELEASE/spring-boot-dependencies-2.1.3.RELEASE.pom (143 kB at 4.8 MB/s)
+remote:        [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.8/jackson-bom-2.9.8.pom
+remote:        [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.8/jackson-bom-2.9.8.pom (12 kB at 826 kB/s)
+remote:        [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.9.1.2/jackson-parent-2.9.1.2.pom
+remote:        [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.jar (155 kB at 4.4 MB/s)
+remote:        [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.jar (239 kB at 7.0 MB/s)
+remote:        [INFO] Installing /tmp/build_52a5fde2be9bb2a19c01df1e816d4b8b/target/java-getting-started-1.0.jar to /app/tmp/cache/.m2/repository/com/example/java-getting-started/1.0/java-getting-started-1.0.jar
+remote:        [INFO] Installing /tmp/build_52a5fde2be9bb2a19c01df1e816d4b8b/pom.xml to /app/tmp/cache/.m2/repository/com/example/java-getting-started/1.0/java-getting-started-1.0.pom
 remote:        [INFO] ------------------------------------------------------------------------
 remote:        [INFO] BUILD SUCCESS
 remote:        [INFO] ------------------------------------------------------------------------
-remote:        [INFO] Total time:  16.987 s
-remote:        [INFO] Finished at: 2019-04-05T00:05:37Z
+remote:        [INFO] Total time:  17.300 s
+remote:        [INFO] Finished at: 2019-05-01T02:40:29Z
 remote:        [INFO] ------------------------------------------------------------------------
 remote: -----> Discovering process types
 remote:        Procfile declares types -> web
@@ -25,20 +54,19 @@ remote: -----> Compressing...
 remote:        Done: 69.9M
 remote: -----> Launching...
 remote:        Released v5
-remote:        https://hidden-thicket-77425.herokuapp.com/ deployed to Heroku
+remote:        https://infinite-wildwood-19634.herokuapp.com/ deployed to Heroku
 remote:
 remote: Verifying deploy... done.
-To https://git.heroku.com/hidden-thicket-77425.git
+To https://git.heroku.com/infinite-wildwood-19634.git
  * [new branch]      master -> master
+thoma@DESKTOP-76N63F4 MINGW64 ~/java-getting-started (master)
+$ heroku ps:scale web=1
+Scaling dynos... done, now running web at 1:Free
 
+thoma@DESKTOP-76N63F4 MINGW64 ~/java-getting-started (master)
+$ heroku open
+
+thoma@DESKTOP-76N63F4 MINGW64 ~/java-getting-started (master)
 $ heroku logs --tail
-2019-04-05T00:06:02.353584+00:00 app[web.1]: 2019-04-05 00:06:02.353  INFO 4 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-04-05T00:06:02.870986+00:00 app[web.1]: 2019-04-05 00:06:02.870  INFO 4 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-04-05T00:06:03.484285+00:00 app[web.1]: 2019-04-05 00:06:03.483  INFO 4 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2019-04-05T00:06:04.139300+00:00 heroku[web.1]: State changed from starting to up
-2019-04-05T00:06:03.911371+00:00 app[web.1]: 2019-04-05 00:06:03.911  INFO 4 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2019-04-05T00:06:04.147221+00:00 app[web.1]: 2019-04-05 00:06:04.143  INFO 4 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 15331 (http) with context path ''
-2019-04-05T00:06:04.162016+00:00 app[web.1]: 2019-04-05 00:06:04.161  INFO 4 --- [           main] com.example.Main                         : Started Main in 10.939 seconds (JVM running for 12.658)
-2019-04-05T00:06:05.195401+00:00 app[web.1]: 2019-04-05 00:06:05.194  INFO 4 --- [io-15331-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-04-05T00:06:05.195658+00:00 app[web.1]: 2019-04-05 00:06:05.195  INFO 4 --- [io-15331-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-04-05T00:06:05.209748+00:00 app[web.1]: 2019-04-05 00:06:05.209  INFO 4 --- [io-15331-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+
+
