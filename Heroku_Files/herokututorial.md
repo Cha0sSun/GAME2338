@@ -1,1 +1,30 @@
 
+git clone https://github.com/heroku/java-getting-started
+cd java-getting-started
+
+git push heroku master
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> Java app detected
+remote: -----> Installing JDK 1.8... done
+remote: -----> Executing: ./mvnw -DskipTests clean dependency:list install
+...
+remote:        [INFO] ------------------------------------------------------------------------
+remote:        [INFO] BUILD SUCCESS
+remote:        [INFO] ------------------------------------------------------------------------
+remote:        [INFO] Total time:  16.987 s
+remote:        [INFO] Finished at: 2019-04-05T00:05:37Z
+remote:        [INFO] ------------------------------------------------------------------------
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 69.9M
+remote: -----> Launching...
+remote:        Released v5
+remote:        https://hidden-thicket-77425.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/hidden-thicket-77425.git
+ * [new branch]      master -> master
